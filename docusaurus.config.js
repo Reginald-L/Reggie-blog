@@ -40,4 +40,7 @@ module.exports = {
       },
     ],
   ],
+  // clientModules: [
+  //   require.resolve('./src/js/love.min.js'),
+  // ],
 };
