@@ -16,13 +16,18 @@ module.exports = {
         src: 'img/favicon.ico',
       },
       items: [
-        {to: '/', label: 'Blog', position: 'right'},
+        {to: 'blog', label: '📝Blog', position: 'left'},
+        // {to: 'resume', label: 'Resume', position: 'right'},
         {
           href: 'https://github.com/Reginald-L',
           label: 'GitHub',
           position: 'right',
         },
       ],
+    },
+    footer: {
+      // style: "dark",
+      copyright: `Copyright © ${new Date().getFullYear()} Reggie.`,
     },
   },
   presets: [
@@ -32,6 +37,8 @@ module.exports = {
         blog: {
             path: './blog',
             routeBasePath: '/',
+            blogSidebarCount: 10,
+            postsPerPage: 1,
         },
         theme: {
             customCss: require.resolve('./src/css/custom.css'),
