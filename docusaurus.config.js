@@ -31,7 +31,7 @@ module.exports = {
       {
         blog: {
             path: './blog',
-            routeBasePath: '/', 
+            routeBasePath: '/',
         },
         theme: {
             customCss: require.resolve('./src/css/custom.css'),
@@ -40,7 +40,4 @@ module.exports = {
       },
     ],
   ],
-  // clientModules: [
-  //   require.resolve('./src/js/love.min.js'),
-  // ],
 };
