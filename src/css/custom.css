@@ -47,8 +47,3 @@ article footer b {
   overflow: hidden;
   vertical-align: middle;
 }
-
-article footer b:hover {
-  text-indent: 0px;
-  background-image: url('');
-}
