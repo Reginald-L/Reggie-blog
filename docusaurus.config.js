@@ -16,7 +16,7 @@ module.exports = {
         src: 'img/favicon.ico',
       },
       items: [
-        {to: 'blog', label: '📝Blog', position: 'left'},
+        {to: 'blog', label: '📝Blog', position: 'right'},
         // {to: 'resume', label: 'Resume', position: 'right'},
         {
           href: 'https://github.com/Reginald-L',
