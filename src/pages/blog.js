@@ -44,7 +44,7 @@ function Maintag(
 ) {
   return (
     <div className={clsx("col col--4", styles.feature)}>
-      <h3 className={clsx("heading-three", styles.heading3)}>{maintag.toUpperCase()}</h3>
+      <h3 className={clsx("heading-three", styles.heading3)}>{processMaintag(maintag)}</h3>
       <ul>
         {posts.map((post) => (
           <li key={post.tags}>
@@ -56,6 +56,13 @@ function Maintag(
       </ul>
     </div>
   );
+}
+
+function processMaintag(maintag){
+  maintag = maintag.trim().toLowerCase();
+  var firstLetter = maintag.charAt(0).toUpperCase();
+  maintag = maintag.replace(maintag[0], firstLetter);
+  return maintag;
 }
 
 function BlogArchive() {
