@@ -37,11 +37,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 /* article footer strong { */
 article footer b {
-  width: 3rem;
+  width: 2rem;
   height: 2rem;
   display: inline-block;
   background-image: url('../../static/img/tag.svg');
-  background-size: 75%;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-indent: -9999px;
   overflow: hidden;
