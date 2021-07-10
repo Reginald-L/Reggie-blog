@@ -34,3 +34,16 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+
+article footer strong{
+  width: 2rem;
+  height: 2rem;
+  display: inline-block;
+  background-image: url('../../static/img/tag.svg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  overflow: hidden;
+  vertical-align: middle;
+}
