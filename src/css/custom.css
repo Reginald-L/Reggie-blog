@@ -36,7 +36,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 /* article footer strong { */
-article footer b {
+article footer b:first {
   width: 2rem;
   height: 2rem;
   display: inline-block;
