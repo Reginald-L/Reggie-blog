@@ -48,7 +48,7 @@ article footer b {
   vertical-align: middle;
 }
 
-article footer strong:hover {
+article footer b:hover {
   text-indent: 0px;
   background-image: url('');
 }
